@@ -5,8 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'grotesk': ['Space Grotesk', 'sans-serif'],
+        'drukTrial': ['Druk Trial', 'sans-serif'],
+        'drukTrialWide': ['Druk Wide Trial', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
-
