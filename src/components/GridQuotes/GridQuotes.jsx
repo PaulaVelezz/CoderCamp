@@ -2,7 +2,11 @@ import React from 'react'
 
 const GridQuotes = () => {
   return (
-    <div>GridQuotes</div>
+    <section>
+      <div>
+        <h3>Resumen visual</h3>
+      </div>
+    </section>
   )
 }
 

@@ -1,8 +1,8 @@
 import Header from "./components/Header/Header.jsx"
 import Hero from "./components/Hero/Hero.jsx"
-// import SendQuote from "./components/SendQuote/SendQuote.jsx"
-// import GridQuotes from "./components/GridQuotes/GridQuotes.jsx"
-// import Footer from "./components/Footer/Footer.jsx"
+import SendQuote from "./components/SendQuote/SendQuote.jsx"
+import GridQuotes from "./components/GridQuotes/GridQuotes.jsx"
+import Footer from "./components/Footer/Footer.jsx"
 import SwipePhraseCards from "./components/SwipePhraseCards/SwipePhraseCards.jsx"
 
 
@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Hero />
       <SwipePhraseCards />
-      {/* <SendQuote />
+      <SendQuote />
       <GridQuotes />
-      <Footer /> */}
+      <Footer />
     </>
   )
 }
